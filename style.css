@@ -1,0 +1,53 @@
+html{
+scroll-behavior: smooth;
+}
+.carousel-item{
+    padding: 0 5%;
+}
+section{
+    margin-top:80px;
+}
+#head-carousel {
+    margin-top: 100px;
+}
+
+#head-carousel, .subs{
+    background-color: #FCEAE8;
+    border-radius: 10px;
+    
+}
+.buy-now-btn{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    
+}
+.add-box{
+    box-shadow: 0px 0px 30px rgb(180, 180, 180);
+    transition: 0.3s;
+}
+.add-box:hover {
+    box-shadow: none;
+    box-shadow: 0px 0px 10px rgb(180, 180, 180);
+}
+.left-carousel .buy-now-btn{
+    width:130px;
+}
+.box{
+    color: #fff; 
+}
+
+.price{
+    color:#FF136F;
+}
+.watch{
+    background: #FFA500;
+}
+.bag{
+    background: #DA70D6;
+}
+.shoes{
+    background: #0000FF;
+}
